@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-form{
+  width: 350px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  form{
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+
+    button{
+      text-transform: uppercase;
+      padding: 5px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+    }
+    button:hover {
+      background: #c5c5c5;
+      letter-spacing: 1px;
+      box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    }
+  }
+  .city-div, .country-div{
+    display: block;
+    padding: 10px;
+    label{
+      width: 40%;
+
+    }
+    input{
+      width: 60%;
+      float: right;
+    }
+  }
+}
+
+.cards-container{
+  display: inline-flex;
+  width: 100%;
+  margin-top: 20px;
+  .weather-card{
+    margin: 0 auto;
+    width: 125px;
+    h5{
+      text-align: center;
+    }
+    .img-container{
+      text-align: center;
+    }
+  }
+  .temps-container{
+    display: inline-flex;
+    width:100%;
+    .high-limit, .low-limit{
+      width:50%;
+      text-align: center;
+    }
+  }
+}
